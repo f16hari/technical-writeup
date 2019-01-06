@@ -41,3 +41,24 @@ so it creates a modal from as :![alt text](https://lh3.googleusercontent.com/Qyh
 on Click of the button we get the from modal as :
 ![alt text](https://lh5.googleusercontent.com/Kr0Z8ShF4_oUMnifmsPxtKmI5FZ8e5xX-oigr9LfwO9oIzlCdBTMXjFxqgnev4VPHum5C4wv4zspe_NBKG_l=w1402-h968-rw)
 
+so the `JQuery` function to process submit is the following :
+```javascript
+function invoke()
+		{
+			console.log("asynchronus submission invoked");
+			$("#submit").click(function(){
+
+				$.ajax({
+					type: "POST",
+					url: "enquiry.php",
+					cache: false,
+					success: function(){
+						window.alert("Asynchronus submission sucessful");
+
+							}
+					});
+			return false;
+			});
+		}
+```
+
