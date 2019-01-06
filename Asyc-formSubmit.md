@@ -1,6 +1,6 @@
 ---
 # How to submit an HTML FORM to the sever without RELOADING or REDIRECTING to the server page ?
-#### '2019-04-01'
+#### 2019-04-01
 ---
 
 Seeing the title of this write up you may be wondering what is the big deal in form submission ?
