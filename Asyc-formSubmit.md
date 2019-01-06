@@ -21,22 +21,14 @@ consider the `<form>` be declared as
 ```HTML
 <div id="form"> 
 		<div class="modal-body">
-			<div style="float:left;width:50%;">
-            
-            <input type="text" name="name" placeholder=" Name . . ."><br><br>
-			<input type="tel" name="phno" placeholder=" Phno . . ."><br><br>
-			<input type="email" name="email" placeholder=" Email . . ."><br><br>
-			<textarea name="message" placeholder=" Type your msg here . . . " cols="23" rows="5"></textarea>
+            		<input type="text"><br><br>
+			<input type="text"><br><br>
+			....
+			<input type="text" ><br><br>
 			
-            </div>
 			<div>
-			After submitting you will be contacted by our one of our Hr's <br>
-			Hr will explain course details and fees <br>
-			we will send course details in email <br>
-			Join the courses as soon as you are satisfied
+			 ....
 			</div>
-			<div class="clearfix"></div>
-			
 			
 		</div>
 		<div class="modal-footer">
