@@ -1,6 +1,6 @@
 ---
 # How to submit an HTML FORM to the sever without RELOADING or REDIRECTING to the server page ?
-## '2019-04-01'
+#### '2019-04-01'
 ---
 
 Seeing the title of this write up you may be wondering what is the big deal in form submission ?
@@ -62,6 +62,8 @@ function invoke()
 		}
 ```
 
-so the parameters that are to be considered are `type` - is used to specify the *Get* or *POST* method `url` - is used to specify the server page to process that data in my case it is *sampleServerPage.php* `cache` is either *true* or *false* depending on whether you want to store it in the browser cache or not `sucess` - the call back function that must be executed after sucessfull completion of the ajax request
+so the parameters that are to be considered are `type` - is used to specify the *Get* or *POST* method `url` - is used to specify the server page to process data, in my case it is *sampleServerPage.php* `cache` is either *true* or *false* depending on whether you want to store it in the browser cache or not `sucess` - the call back function that must be executed after sucessfull completion of the ajax request
 
 So after completion it looks something like :![alt text](https://lh3.googleusercontent.com/kGPXdz-FaibVdzR_uepykWN_CGp_cFSv9yk9R047g23oRxLs5w109g33C3FjQgSu9u-2XwfmGiv6H3aa69Uq=w1402-h968-rw)
+
+So That's it you can use this code as the base to handle your from data.
