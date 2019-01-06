@@ -11,3 +11,9 @@ But the thing that I want to convey is that the predominant way of submitting th
   ....
 </form>
 ```
+The above way of submitting details to the server causes the page to redirect to the `sampleSeverPage` in the `action` tag along with the loss of control of the current page. This might not be a big concern when working on simple web apps that require less desktop like functionality.
+So, I am going to discuss a method that uses `Ajax` and `JQuery` to allow us to asynchronusly submit the data to the server without loosing control over the current page
+for the implementation of the server functionality I will be using `PHP ^5.0.6`
+consider the `<form>` be declared as
+```HTML
+```
