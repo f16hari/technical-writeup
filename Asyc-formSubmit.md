@@ -64,6 +64,6 @@ function invoke()
 
 so the parameters that are to be considered are `type` - is used to specify the *Get* or *POST* method `url` - is used to specify the server page to process data, in my case it is *sampleServerPage.php* `cache` is either *true* or *false* depending on whether you want to store it in the browser cache or not `sucess` - the call back function that must be executed after sucessfull completion of the ajax request
 
-So after completion it looks something like :![alt text](https://lh3.googleusercontent.com/kGPXdz-FaibVdzR_uepykWN_CGp_cFSv9yk9R047g23oRxLs5w109g33C3FjQgSu9u-2XwfmGiv6H3aa69Uq=w1402-h968-rw)
+So after completion it looks something like :![alt text](https://b3htqg.bn.files.1drv.com/y4mRIaw_RcBFMO1f1MJlfNUNqWrWG1nUsdFRzoeBnZs9wBRngr-C7Ya27qtkNlMNMelMv-v3_6phhJPfYvJhvoAWFZwq4aRM4RspG3etA66A0_r19AG-a3CP5tUyoE4Ml664T5bn_L9M6LNPtLy9GXOPmwz4xoOZkhts21CX10IrUGUNgvunmwpf6_6GZjNlIC-vtKSXvZpMEf6PGVABHXlxg?width=1920&height=1080&cropmode=none)
 
 So That's it you can use this code as the base to handle your from data.
