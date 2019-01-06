@@ -29,18 +29,17 @@ consider the `<form>` be declared as
 			<textarea name="message" placeholder=" Type your msg here . . . " cols="23" rows="5"></textarea>
 			
             </div>
-			<div style="float:left;width:50%;background-color:#0062ff;height:335px;padding:5px;color:white; word-break: break-all;">
-			<i class="far fa-check-circle" style="font-size:20px;"></i> After submitting you will be contacted by our one of our Hr's <br>
-			<i class="far fa-check-circle" style="font-size:20px;"></i> Hr will explain course details and fees <br>
-			<i class="far fa-check-circle" style="font-size:20px;"></i> we will send course details in email <br>
-			<i class="far fa-check-circle" style="font-size:20px;"></i> Join the courses as soon as you are satisfied
+			<div>
+			After submitting you will be contacted by our one of our Hr's <br>
+			Hr will explain course details and fees <br>
+			we will send course details in email <br>
+			Join the courses as soon as you are satisfied
 			</div>
 			<div class="clearfix"></div>
 			
 			
 		</div>
 		<div class="modal-footer">
-			<button type="button" class="btn btn-secondary" onclick="c()">Close</button>
 			<input type="submit" id='submit' class="btn btn-primary" value="SUBMIT">
 		</div>
 </div>
